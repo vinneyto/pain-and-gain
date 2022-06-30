@@ -4,6 +4,11 @@
 
 Устанавливаем nvm <https://github.com/nvm-sh/nvm>
 
+Делаем в терминале:
+
+    nvm install 18
+    nvm alias default 18
+
 ## Пакеты
 
 Делаем в терминале:

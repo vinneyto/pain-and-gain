@@ -13,4 +13,4 @@
 
 Так же - в зависимости от видимости контента должна меняться иконка и `collapsable__toggle`
 
-Это можно сделать по средствам классов `collapsable__toggle--open` и `collapsable__toggle--close`
+Это можно сделать посредством классов `collapsable__toggle--open` и `collapsable__toggle--close`
