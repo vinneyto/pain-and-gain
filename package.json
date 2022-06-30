@@ -1,0 +1,22 @@
+{
+  "name": "pain-and-gain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "http-server -o -c-1 --port 5654 ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinneyto/pain-and-gain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinneyto/pain-and-gain/issues"
+  },
+  "homepage": "https://github.com/vinneyto/pain-and-gain#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

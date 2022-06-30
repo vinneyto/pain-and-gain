@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collapsable section</title>
+    <style>
+      .collapsable {
+        margin: 16px 0;
+        background-color: aliceblue;
+      }
+
+      .collapsable__toggle {
+        padding: 8px;
+        cursor: pointer;
+      }
+
+      .collapsable__toggle--close::before {
+        content: "►";
+      }
+
+      .collapsable__toggle--open::before {
+        content: "▼";
+      }
+
+      .collapsable__content {
+        padding: 16px 8px;
+        font-size: 16px;
+        font-family: "Courier New", Courier, monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="collapsable">
+      <div class="collapsable__toggle collapsable__toggle--open"></div>
+      <div class="collapsable__content">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod minima
+        ullam voluptates nesciunt cupiditate animi quos. Porro blanditiis cum
+        sint quo pariatur maiores, sequi, quibusdam molestiae, architecto
+        voluptatibus saepe et.
+      </div>
+    </section>
+
+    <section class="collapsable">
+      <div class="collapsable__toggle collapsable__toggle--open"></div>
+      <div class="collapsable__content">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod minima
+        ullam voluptates nesciunt cupiditate animi quos. Porro blanditiis cum
+        sint quo pariatur maiores, sequi, quibusdam molestiae, architecto
+        voluptatibus saepe et.
+      </div>
+    </section>
+
+    <section class="collapsable">
+      <div class="collapsable__toggle collapsable__toggle--open"></div>
+      <div class="collapsable__content">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod minima
+        ullam voluptates nesciunt cupiditate animi quos. Porro blanditiis cum
+        sint quo pariatur maiores, sequi, quibusdam molestiae, architecto
+        voluptatibus saepe et.
+      </div>
+    </section>
+  </body>
+</html>
