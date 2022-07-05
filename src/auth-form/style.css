@@ -1,0 +1,71 @@
+
+
+.window{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(212, 210, 209);
+}
+.authorization{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -3px 3px 4px;
+   
+    
+}
+.forma{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;  
+    position: relative;
+}
+h1{
+    position: absolute;
+    top:20px;
+    text-align: center;
+    font-size: 49px;
+    color: rgb(62, 61, 61);
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin-top: 20px;
+}
+.email{
+    height:30px;
+    width: 350px;
+    margin: 20px;
+}
+.password{
+    height:30px;
+    width: 350px;
+    margin: 20px;
+}
+.knopka{
+    background-color: rgb(145, 57, 228);
+    color: white;
+    width: 170px;
+    height: 60px;
+    position: absolute;
+    font-size: 26px;
+    margin:auto;
+    bottom: 70px;
+}
+.wtf{
+    text-align: center;
+   position: absolute;
+    font-size: 25px;
+    bottom: 18px;
+    left: 50px;
+    right: 50px;
+    
+    
+   
+}
+a{
+    color: rgb(145, 57, 228);
+   
+}
